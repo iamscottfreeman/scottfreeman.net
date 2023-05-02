@@ -6,10 +6,7 @@ import type { AppProps } from 'next/app';
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      <NextSeo
-        title='IPL Tested World Championships'
-        description='IPL Tested World Championships in Coventry, UK on 18th to 22nd October, 2023.'
-      />
+      <NextSeo title='scottfreeman.net' description='scottfreeman.net | Scott Freeman' />
       <Component {...pageProps} />
       <Analytics />
     </>

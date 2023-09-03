@@ -33,7 +33,7 @@ export default function Home() {
           <Image src={linkedin} alt='LinkedIn' width={40} className='w-7 md:w-10' />
         </Link>
         <span className='hidden md:block w-px bg-white h-6 border-r'></span>
-        <Link href='mailto:hello@scottfreeman.net'>
+        <Link href='mailto:email@scottfreeman.net'>
           <Image src={mail} alt='Mail' width={40} className='w-7 md:w-10' />
         </Link>
       </div>
